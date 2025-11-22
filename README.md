@@ -60,6 +60,7 @@ perfomance_test_case/
 ├────static
 │       screen_1.png
 │       screen_2.png
+│       screen_1_Ubuntu.png
 │
 └────tests
         conftest.py
@@ -116,7 +117,10 @@ pip install -r requirements.txt
 ```bash
 python main.py --files scv_files/employees1.csv scv_files/employees2.csv --report performance
 ```
-![Пример](static/screen_1.png)
+Windows:
+![Пример_1](static/screen_1.png)
+Linux:
+![Пример_2](static/screen_1_Ubuntu.png)
 
 
 ## Тесты
